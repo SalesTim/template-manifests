@@ -17,9 +17,9 @@ A manifest is a simple text file that describes the properties of a Microsoft Te
 
 To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our [Help Center](https://help.salestim.com/).
 
-If you want to integrate your applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our [Tech Hub](https://developers.salestim.com/).
+If you want to integrate your application with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our [Tech Hub](https://developers.salestim.com/).
 
-## 📝 Template manifests
+## Template manifests
 
 Template manifests are plain [JSON files](https://en.wikipedia.org/wiki/JSON).  
 To control their structure, we're using a [JSON schema](https://en.wikipedia.org/wiki/JSON#JSON_Schema). Our JSON schema adheres to the [JSON Schema Draft 4](https://json-schema.org/draft-04/json-schema-core.html) specification.
@@ -39,16 +39,16 @@ N.B: The manifest section that defines the contents and apps to be provisionned 
 }
 ```
 
-## ✍ Contribute
+## Contribute
 
-### 1. 🔽 Get the sources and build
+### 1. Get the sources and build
 
 ``` sh
 # Clone this repo
 git clone https://github.com/SalesTim/template-manifests.git
 ```
 
-### 1. 🆕 Create your manifest
+### 2. Create your manifest
 
 **Option 1: Using SalesTim**
 
@@ -61,7 +61,7 @@ git clone https://github.com/SalesTim/template-manifests.git
 
 Just copy an existing manifest and paste it in the following folder: `manifests / <publisher> / <template>`
 
-### 2. 🕵️‍ Test your manifest
+### 3. Test your manifest
 
 **Option 1: Using SalesTim**
 
@@ -81,7 +81,7 @@ Full Intellisense, inline documentation and schema validation during manifest au
 }
 ```
 
-## 🚀 Submit your manifest
+## Submit your manifest
 
 With the manifest verified, you will need to submit a PR. Your manifest should be located in the folder path matching:
 ``` bash
@@ -90,10 +90,14 @@ manifests / <publisher> / <template> / <version>.json
 
 *⚠ Manifests are validated against our [JSON Template Schema](https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json) during publishing and will be automatically rejected until rectified.*
 
-### ✅ Validation Process
+### Validation Process
 
 The PR request will go through a validation process. During the process, the PR request will get labels to help drive the validation. In the event of a failure, we'll include comments and assign the PR back to you.
 
-### 💬 Respond to feedback
+### Respond to feedback
 
 If the PR has been assigned to you, a timer is triggered. You will have 7 days to resolve the issue, or the PR will be closed.
+
+## Useful Links
+- [Report an issue](https://github.com/SalesTim/template-manifests/issues/new/choose)
+- [Security Policy](https://github.com/SalesTim/template-manifests/blob/master/SECURITY.md)
