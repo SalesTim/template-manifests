@@ -21,19 +21,19 @@ If you want to integrate your contents or applications with the SalesTim Platfor
 ## TABLE OF CONTENTS
 
 - **[A. INTRODUCTION TO TEMPLATE MANIFESTS](#a-introduction-to-template-manifests)**
-- [B. CREATE YOUR OWN TEMPLATE MANIFEST](#b-create-your-own-template-manifest)
+- **[B. CREATE YOUR OWN TEMPLATE MANIFEST](#b-create-your-own-template-manifest)**
   1. Get the Sources
   2. Create your Manifest
   3. Test your Manifest
-- [C. PUBLISH YOUR TEMPLATE MANIFEST](#c-publish-your-template-manifest)
+- **[C. PUBLISH YOUR TEMPLATE MANIFEST](#c-publish-your-template-manifest)**
   - Submission Process
   - Validation Process
   - Respond to Feedback
-- [D. TEMPLATE MANIFESTS SPEC](#d-template-manifests-spec)
+- **[D. TEMPLATE MANIFESTS SPEC](#d-template-manifests-spec)**
   - Minimal JSON File Example
   - Best Practices
   - Compatibility with Microsoft Teams Standard Templates
-- [E. USEFUL LINKS](#e-useful-links)
+- **[E. USEFUL LINKS](#e-useful-links)**
 
 ## A. INTRODUCTION TO TEMPLATE MANIFESTS
 
@@ -79,7 +79,7 @@ If any error occurs during the import process, including an incorrect manifest s
 **Option 2: Using Visual Studio Code**
 
 Full Intellisense, inline documentation and schema validation during manifest authoring in Visual Studio Code is supported as long as your manifest starts with the following line:
-```json
+``` json
 {
   "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json"
 }
