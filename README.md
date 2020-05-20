@@ -9,18 +9,18 @@
 This repository contains manifests defining the templates published on the ***[SalesTim Template Store](https://store.salestim.com)***.  
 A manifest is a simple file that describes the properties of a Microsoft Teams template with respect to the Microsoft Teams and the SalesTim platforms, especially:
 - **Contents and apps to be provisioned**
-- Naming conventions & tagging
-- Approval workflow
-- Security and compliance policies
-- Lifecycle policies
+- **Naming conventions & tagging**
+- **Approval workflow**
+- **Security and compliance policies**
+- **Lifecycle policies**
 
-To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our [Help Center](https://help.salestim.com/).
+To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
 
-If you want to integrate your contents or applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our [Tech Hub](https://developers.salestim.com/).
+If you want to integrate your contents or applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our ***[Tech Hub](https://developers.salestim.com/)***.
 
 ## TABLE OF CONTENTS
 
-- [A. INTRODUCTION TO TEMPLATE MANIFESTS](#a-introduction-to-template-manifests)
+- **[A. INTRODUCTION TO TEMPLATE MANIFESTS](#a-introduction-to-template-manifests)**
 - [B. CREATE YOUR OWN TEMPLATE MANIFEST](#b-create-your-own-template-manifest)
   1. Get the Sources
   2. Create your Manifest
