@@ -1,5 +1,5 @@
 [![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)&nbsp;
-![version](https://img.shields.io/badge/version-1.0.0-green?style=flat)&nbsp;![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)&nbsp;[![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin?style=flat)](https://www.linkedin.com/company/salestim/)&nbsp;[![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter?style=flat)](https://twitter.com/intent/follow?screen_name=salestimcrm)
+![version](https://img.shields.io/badge/version-1.0.0-green?style=flat)&nbsp;![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)&nbsp;[![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)&nbsp;[![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)&nbsp;[![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
