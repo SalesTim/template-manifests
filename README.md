@@ -4,11 +4,11 @@
 
 # Welcome to the SalesTim Community Microsoft Teams Template Manifests repo
 
-## Abstract
+## ABSTRACT
 
-This repository contains manifests defining the templates published on the [SalesTim Template Store](https://store.salestim.com).  
+This repository contains manifests defining the templates published on the ***[SalesTim Template Store](https://store.salestim.com)***.  
 A manifest is a simple file that describes the properties of a Microsoft Teams template with respect to the Microsoft Teams and the SalesTim platforms, especially:
-- Contents and apps to be provisioned
+- **Contents and apps to be provisioned**
 - Naming conventions & tagging
 - Approval workflow
 - Security and compliance policies
@@ -20,22 +20,22 @@ If you want to integrate your contents or applications with the SalesTim Platfor
 
 ## TABLE OF CONTENTS
 
-1. INTRODUCTION TO TEMPLATE MANIFESTS
-2. CREATE YOUR OWN TEMPLATE MANIFEST
-    - Get the Sources
-    - Create your Manifest
-    - Test your Manifest
-3. PUBLISH YOUR TEMPLATE MANIFEST
-    - Submission Process
-    - Validation Process
-    - Respond to Feedback
-4. TEMPLATE MANIFESTS SPEC
-    - Minimal JSON File Example
-    - Best Practices
-    - Compatibility with Microsoft Teams Standard Templates
-5. USEFUL LINKS
+- [A. INTRODUCTION TO TEMPLATE MANIFESTS](#a-introduction-to-template-manifests)
+- [B. CREATE YOUR OWN TEMPLATE MANIFEST](#b-create-your-own-template-manifest)
+  1. Get the Sources
+  2. Create your Manifest
+  3. Test your Manifest
+- [C. PUBLISH YOUR TEMPLATE MANIFEST](#c-publish-your-template-manifest)
+  - Submission Process
+  - Validation Process
+  - Respond to Feedback
+- [D. TEMPLATE MANIFESTS SPEC](#d-template-manifests-spec)
+  - Minimal JSON File Example
+  - Best Practices
+  - Compatibility with Microsoft Teams Standard Templates
+- [E. USEFUL LINKS](#e-useful-links)
 
-## INTRODUCTION TO TEMPLATE MANIFESTS
+## A. INTRODUCTION TO TEMPLATE MANIFESTS
 
 Template manifests are plain [JSON Files](https://en.wikipedia.org/wiki/JSON), which is an open standard file format that guarantees portability.
 
@@ -43,7 +43,7 @@ To validate their structure, we're using a [JSON schema](https://en.wikipedia.or
 
 To learn more about our template schema, including all fields, options and rules, please refer to our [Template Manifests JSON Schema](https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json).
 
-## CREATE YOUR OWN TEMPLATE MANIFEST
+## B. CREATE YOUR OWN TEMPLATE MANIFEST
 
 ### 1. Get the Sources
 
@@ -85,7 +85,7 @@ Full Intellisense, inline documentation and schema validation during manifest au
 }
 ```
 
-## PUBLISH YOUR TEMPLATE MANIFEST
+## C. PUBLISH YOUR TEMPLATE MANIFEST
 
 ### Submission process
 
@@ -111,7 +111,7 @@ The PR request will go through a validation process.
 
 If the PR has been assigned to you, a timer is triggered. You will have 7 days to resolve the issue, or the PR will be closed.
 
-## TEMPLATE MANIFESTS SPEC
+## D. TEMPLATE MANIFESTS SPEC
 
 ### Minimal JSON File Example
 As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json), only a number of fields are required as we're applying a number of default values. The minimal supported JSON file would look like this:
@@ -185,6 +185,6 @@ The manifest section that defines the contents and apps to be provisionned durin
 }
 ```
 
-## USEFUL LINKS
+## E. USEFUL LINKS
 - [Report an issue](https://github.com/SalesTim/template-manifests/issues/new/choose)
 - [Security Policy](https://github.com/SalesTim/template-manifests/blob/master/SECURITY.md)
