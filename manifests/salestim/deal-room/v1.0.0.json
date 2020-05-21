@@ -1,0 +1,143 @@
+{
+  "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json",
+  "manifestVersion": "1.0",
+  "publisher": {
+    "name": "SalesTim",
+    "description": "SalesTim helps any organization to improve the collaboration process at scale.",
+    "id": "io.salestim",
+    "logo": "https://store.salestim.com/color.png",
+    "websiteUrl": "https://www.salestim.com",
+    "privacyUrl": "https://www.salestim.com/legal/privacy",
+    "termsOfUseUrl": "https://www.salestim.com/legal/tos"
+  },
+  "templateConfiguration": {
+    "approval": {
+      "requireApproval": "false",
+      "approvalTeam": []
+    },
+    "adoption": {
+      "week1Subject": "",
+      "week1Message": "",
+      "week2Subject": "",
+      "week2Message": "",
+      "week3Subject": "",
+      "week3Message": ""
+    },
+    "permanentMembership": {
+      "owners": [],
+      "members": []
+    },
+    "audienceTargeting": {
+      "enabled": "true",
+      "rules": "!user.msPreferredLanguage.toLowerCase().includes('fr')"
+    },
+    "id": "io.salestim.automation.templates.dealRoom.en-us",
+    "language": "en-us",
+    "enabled": "true",
+    "version": "1.0",
+    "system": "false",
+    "singleton": "false",
+    "name": "Deal Room",
+    "description": "A basic team comprised of one 'General' channel",
+    "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
+    "cardPicture": "https://source.unsplash.com/random/400x300",
+    "screenshots": [
+      "https://source.unsplash.com/random/800x600",
+      "https://source.unsplash.com/random/400x300",
+      "https://source.unsplash.com/random/200x150"
+    ],
+    "categories": [
+      "io.salestim.gallery.categories.productivity",
+      "io.salestim.gallery.categories.discover",
+      "io.salestim.gallery.industries.services"
+    ]
+  },
+  "clonedTeam": {
+    "teamId": "",
+    "teamName": "",
+    "includeApps": "true",
+    "includeTabs": "true",
+    "includeSettings": "true",
+    "includeChannels": "true",
+    "includeMembers": "false"
+  },
+  "newTeam": {
+    "namingConvention": "<%= request.team.name %>-TIM",
+    "emailConvention": "TIM-<%= request.team.name %>-EN",
+    "descriptionConvention": "Team created by <%= user.msDisplayName %>. Description: <%= request.team.description %>",
+    "welcomeMessageConvention": "<%= request.team.welcomeMessage %>",
+    "defaultName": "",
+    "defaultDescription": "",
+    "defaultWelcomeMessage": "",
+    "teamPrivacy": "private",
+    "addRequesterAsTeamOwner": "true"
+  },
+  "initialization": {
+    "structure": {
+      "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
+      "visibility": "Private",
+      "displayName": "TIM-BASIC-EN-TEMPLATE",
+      "description": "Basic team template (EN)",
+      "channels": [
+        {
+          "displayName": "🙋🏼‍♀️ Discover SalesTim",
+          "isFavoriteByDefault": true,
+          "description": "This channel contains essentials contents to start using SalesTim.",
+          "tabs": [
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+              "name": "Website",
+              "configuration": {
+                "contentUrl": "https://www.salestim.com/"
+              }
+            },
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+              "name": "Video",
+              "configuration": {
+                "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?videoId=o8NgzVvg7nI",
+                "websiteUrl": "https://www.youtube.com/watch?v=o8NgzVvg7nI"
+              }
+            },
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+              "name": "Online help",
+              "configuration": {
+                "contentUrl": "https://help.salestim.com"
+              }
+            }
+          ]
+        }
+      ],
+      "memberSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true,
+        "allowAddRemoveApps": true,
+        "allowCreateUpdateRemoveTabs": true,
+        "allowCreateUpdateRemoveConnectors": true
+      },
+      "guestSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true
+      },
+      "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+      },
+      "messagingSettings": {
+        "allowUserEditMessages": true,
+        "allowUserDeleteMessages": true,
+        "allowOwnerDeleteMessages": true,
+        "allowTeamMentions": true,
+        "allowChannelMentions": true
+      },
+      "discoverySettings": {
+        "showInTeamsSearchAndSuggestions": false
+      },
+      "installedApps": []
+    },
+    "contents": {}
+  }
+}

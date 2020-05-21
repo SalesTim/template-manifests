@@ -1,0 +1,164 @@
+{
+  "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json",
+  "manifestVersion": "1.0",
+  "publisher": {
+    "name": "SalesTim",
+    "description": "",
+    "id": "io.salestim",
+    "logo": "https://store.salestim.com/color.png",
+    "websiteUrl": "https://www.salestim.com",
+    "privacyUrl": "https://www.salestim.com/legal/privacy",
+    "termsOfUseUrl": "https://www.salestim.com/legal/tos"
+  },
+  "templateConfiguration": {
+    "approval": {
+      "requireApproval": "false",
+      "approvalTeam": []
+    },
+    "adoption": {
+      "week1Subject": "",
+      "week1Message": "",
+      "week2Subject": "",
+      "week2Message": "",
+      "week3Subject": "",
+      "week3Message": ""
+    },
+    "permanentMembership": {
+      "owners": [],
+      "members": []
+    },
+    "audienceTargeting": {
+      "enabled": "true",
+      "rules": "user.msPreferredLanguage.toLowerCase().includes('en')"
+    },
+    "id": "io.salestim.automation.templates.scrum.sprint.en-us",
+    "language": "en-us",
+    "enabled": "true",
+    "version": "1.0",
+    "system": "false",
+    "singleton": "false",
+    "name": "Scrum Sprint",
+    "description": "A sprint (also known as iteration or timebox) is the basic unit of development in Scrum. The sprint is a timeboxed effort; that is, the length is agreed and fixed in advance for each sprint and is normally between one week and one month, with two weeks being the most common.",
+    "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
+    "cardPicture": "https://source.unsplash.com/random/400x300",
+    "screenshots": [
+      "https://source.unsplash.com/random/800x600",
+      "https://source.unsplash.com/random/400x300",
+      "https://source.unsplash.com/random/200x150"
+    ],
+    "categories": [
+      "io.salestim.gallery.categories.it-administration",
+      "io.salestim.gallery.categories.discover"
+    ]
+  },
+  "clonedTeam": {
+    "teamId": "",
+    "teamName": "",
+    "includeApps": "true",
+    "includeTabs": "true",
+    "includeSettings": "true",
+    "includeChannels": "true",
+    "includeMembers": "false"
+  },
+  "newTeam": {
+    "namingConvention": "Sprint #<%= request.team.name %>",
+    "emailConvention": "sprint-<%= request.team.name %>",
+    "descriptionConvention": "Team created by <%= user.msDisplayName %>. Description: <%= request.team.description %>",
+    "welcomeMessageConvention": "Welcome to the Sprint #<%= request.team.name %>! <%= request.team.welcomeMessage %>",
+    "defaultName": "0",
+    "defaultDescription": "",
+    "defaultWelcomeMessage": "",
+    "teamPrivacy": "private",
+    "addRequesterAsTeamOwner": "true"
+  },
+  "initialization": {
+    "structure": {
+      "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
+      "visibility": "Private",
+      "displayName": "TIM-SCRUM-SPRINT-EN-TEMPLATE",
+      "description": "Scrum Sprint team template (EN)",
+      "channels": [
+        {
+          "displayName": "👩‍🎓 Learn Scrum",
+          "isFavoriteByDefault": true,
+          "description": "This channel contains basic resources to learn Scrum.",
+          "tabs": [
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+              "name": "What is Scrum?",
+              "configuration": {
+                "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?videoId=DbCvs-60ytM&videoTitle=What%20is%20Scrum?&channelTitle=edureka!",
+                "websiteUrl": "https://www.youtube.com/watch?v=DbCvs-60ytM"
+              }
+            }
+          ]
+        },
+        {
+          "displayName": "🙋🏼‍♀️ Discover SalesTim",
+          "isFavoriteByDefault": true,
+          "description": "This channel contains essentials contents to start using SalesTim.",
+          "tabs": [
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+              "name": "Website",
+              "configuration": {
+                "contentUrl": "https://www.salestim.com/"
+              }
+            },
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+              "name": "Video",
+              "configuration": {
+                "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?videoId=o8NgzVvg7nI",
+                "websiteUrl": "https://www.youtube.com/watch?v=o8NgzVvg7nI"
+              }
+            },
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+              "name": "Online help",
+              "configuration": {
+                "contentUrl": "https://help.salestim.com"
+              }
+            }
+          ]
+        }
+      ],
+      "memberSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true,
+        "allowAddRemoveApps": true,
+        "allowCreateUpdateRemoveTabs": true,
+        "allowCreateUpdateRemoveConnectors": true
+      },
+      "guestSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true
+      },
+      "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+      },
+      "messagingSettings": {
+        "allowUserEditMessages": true,
+        "allowUserDeleteMessages": true,
+        "allowOwnerDeleteMessages": true,
+        "allowTeamMentions": true,
+        "allowChannelMentions": true
+      },
+      "discoverySettings": {
+        "showInTeamsSearchAndSuggestions": false
+      },
+      "installedApps": [
+        {
+          "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')"
+        },
+        {
+          "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')"
+        }
+      ]
+    },
+    "contents": {}
+  }
+}

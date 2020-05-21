@@ -1,0 +1,67 @@
+{
+  "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json",
+  "manifestVersion": "1.0",
+  "publisher": {
+    "name": "SalesTim",
+    "description": "",
+    "id": "io.salestim",
+    "logo": "https://store.salestim.com/color.png",
+    "websiteUrl": "https://www.salestim.com",
+    "privacyUrl": "https://www.salestim.com/legal/privacy",
+    "termsOfUseUrl": "https://www.salestim.com/legal/tos"
+  },
+  "templateConfiguration": {
+    "approval": {
+      "requireApproval": "false",
+      "approvalTeam": []
+    },
+    "adoption": {
+      "week1Subject": "",
+      "week1Message": "",
+      "week2Subject": "",
+      "week2Message": "",
+      "week3Subject": "",
+      "week3Message": ""
+    },
+    "permanentMembership": {
+      "owners": [],
+      "members": []
+    },
+    "id": "io.salestim.automation.templates.account.en-us",
+    "language": "en-us",
+    "enabled": "false",
+    "version": "1.0",
+    "system": "false",
+    "singleton": "false",
+    "name": "Account Team",
+    "description": "Account Team",
+    "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
+    "cardPicture": "https://source.unsplash.com/random/400x300",
+    "screenshots": [
+      "https://source.unsplash.com/random/800x600",
+      "https://source.unsplash.com/random/400x300",
+      "https://source.unsplash.com/random/200x150"
+    ],
+    "categories": ["io.salestim.gallery.categories.salesAndSupport"]
+  },
+  "clonedTeam": {
+    "teamId": "",
+    "teamName": "",
+    "includeApps": "true",
+    "includeTabs": "true",
+    "includeSettings": "true",
+    "includeChannels": "true",
+    "includeMembers": "true"
+  },
+  "newTeam": {
+    "namingConvention": "<%= account.name %>",
+    "emailConvention": "<%= account.name %>",
+    "descriptionConvention": "<%= account.name %> Account Team",
+    "welcomeMessageConvention": "Welcome to the <%= account.name %> Account Team",
+    "defaultName": "Account Team",
+    "defaultDescription": "Account Team",
+    "defaultWelcomeMessage": "Welcome to the account team!",
+    "teamPrivacy": "private",
+    "addRequesterAsTeamOwner": "true"
+  }
+}

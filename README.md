@@ -11,7 +11,7 @@
 
 ## ABSTRACT
 
-This repository contains manifests defining the templates published on the ***[SalesTim Template Store](https://store.salestim.com)***.  
+This repository contains manifests defining characteristics of the templates published on the ***[SalesTim Template Store](https://store.salestim.com)***.  
 A manifest is a simple file that describes the properties of a Microsoft Teams template with respect to the Microsoft Teams and the SalesTim platforms, especially:
 - **Contents and apps to be provisioned**
 - **Naming conventions & tagging**
@@ -52,7 +52,7 @@ To learn more about our template schema, including all fields, options and rules
 
 ### 1. Get the Sources
 
-```sh
+```console
 # Clone this repo
 git clone https://github.com/SalesTim/template-manifests.git
 ```
@@ -101,6 +101,9 @@ Your manifest should be located in the folder path matching:
 / manifests / <publisher> / <template> / <version>.json
 ```
 
+The following rules must be respected:
+- Folders and files names must be lower-cased
+- Use only alphanumerics characters, with the exception of "`-`" to replace spaces.
 -  `<publisher>` folder is the name of the organization that publishes the template. For example: ***SalesTim***.
 -  The child folder `<template>` is the name of the template. For example: ***Crisis Management***.
 -  The filename must be the current `<version>` following the [Semantic Versioning Specification (SemVer)](https://semver.org/), prefixed with the "`v`" character. For example: ***v1.0.0.json***.
