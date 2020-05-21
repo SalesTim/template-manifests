@@ -1,9 +1,13 @@
-[![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)&nbsp;
-![version](https://img.shields.io/badge/version-1.0.0-green?style=flat)&nbsp;![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)&nbsp;[![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)&nbsp;[![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)&nbsp;[![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
+<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)</a>
+![version](https://img.shields.io/badge/version-1.0.0-green?style=flat)
+![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
+<a href="https://www.linkedin.com/company/salestim/" target="_blank">![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)</a>
+<a href="https://twitter.com/intent/follow?screen_name=salestimcrm" target="_blank">![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)</a>
+<a href="https://store.salestim.com" target="_blank">![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)</a>
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
-# Welcome to the SalesTim Community Microsoft Teams Template Manifests repo
+# Welcome to the The Microsoft Teams® Template Manifests repo
 
 ## ABSTRACT
 
@@ -48,7 +52,7 @@ To learn more about our template schema, including all fields, options and rules
 
 ### 1. Get the Sources
 
-``` sh
+```sh
 # Clone this repo
 git clone https://github.com/SalesTim/template-manifests.git
 ```
@@ -80,7 +84,7 @@ If any error occurs during the import process, including an incorrect manifest s
 **Option 2: Using Visual Studio Code**
 
 Full Intellisense, inline documentation and schema validation during manifest authoring in Visual Studio Code is supported as long as your manifest starts with the following line:
-``` json
+```yaml
 {
   "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json"
 }
@@ -93,7 +97,7 @@ Full Intellisense, inline documentation and schema validation during manifest au
 With the manifest verified, you will need to submit a PR. 
 
 Your manifest should be located in the folder path matching:
-```
+```sh
 / manifests / <publisher> / <template> / <version>.json
 ```
 
@@ -117,7 +121,7 @@ If the PR has been assigned to you, a timer is triggered. You will have 7 days t
 ### Minimal JSON File Example
 As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json), only a number of fields are required as we're applying a number of default values. The minimal supported JSON file would look like this:
 
-``` json
+```yaml
 {
   "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json",
   "manifestVersion": "1.0",
@@ -174,7 +178,7 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
 ### Compatibility with Microsoft Teams Standard Templates
 
 The manifest section that defines the contents and apps to be provisionned during the template initialization (Field: `> initialization -> structure`) is fully compliant with the [Microsoft Teams templates schema](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates), and supports all the standard properties:
-``` json
+```yaml
 {
   "channels": {},
   "memberSettings": {},
