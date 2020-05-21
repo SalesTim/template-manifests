@@ -1,4 +1,4 @@
-<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)</a>
+[![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/){:target="_blank" rel="noopener"}
 ![version](https://img.shields.io/badge/version-1.0.0-green?style=flat)
 ![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
 <a href="https://www.linkedin.com/company/salestim/" target="_blank">![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)</a>
@@ -64,11 +64,11 @@ git clone https://github.com/SalesTim/template-manifests.git
 1. Open your [SalesTim Template Catalog](https://app.salestim.io/forms?stEntityId=io.salestim.automation.catalog)
 2. Create a new template from an existing team (or create a new team for that purpose)
 3. Open the newly created template and click `Export...`
-3. Save your `*.json` file to the following folder `manifests / <publisher> / <template>`
+3. Save your `*.json` file to the following folder `manifests / <publisher> / <template> / <version>.json`
 
 **Option 2: Using an existing template**  
 
-Just copy an existing manifest and paste it in the following folder: `manifests / <publisher> / <template>`
+Just copy an existing manifest and paste it in the following folder: `manifests / <publisher> / <template> / <version>.json`
 
 ### 3. Test your Manifest
 
@@ -103,10 +103,6 @@ Your manifest should be located in the folder path matching:
 │   └── <publisher>
 │       ├── <template>
 │       │   └── <version>.json
-│       ├── <template>
-│       │   └── <version>.json
-│       ├── <template>
-│           └── <version>.json
 ```
 
 The following rules must be respected:
@@ -115,6 +111,15 @@ The following rules must be respected:
 -  `<publisher>` folder is the name of the organization that publishes the template. For example: ***SalesTim***.
 -  The child folder `<template>` is the name of the template. For example: ***Crisis Management***.
 -  The filename must be the current `<version>` following the [Semantic Versioning Specification (SemVer)](https://semver.org/), prefixed with the "`v`" character. For example: ***v1.0.0.json***.
+
+For example:
+```
+.
+├── manifests
+│   └── salestim
+│       ├── deal-room
+│       │   └── v1.0.0.json
+```
 
 ### Validation Process
 
