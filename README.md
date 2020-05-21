@@ -97,8 +97,16 @@ Full Intellisense, inline documentation and schema validation during manifest au
 With the manifest verified, you will need to submit a PR. 
 
 Your manifest should be located in the folder path matching:
-```sh
-/ manifests / <publisher> / <template> / <version>.json
+```
+.
+├── manifests
+│   └── <publisher>
+│       ├── <template>
+│       │   └── <version>.json
+│       ├── <template>
+│       │   └── <version>.json
+│       ├── <template>
+│           └── <version>.json
 ```
 
 The following rules must be respected:
@@ -138,34 +146,30 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
     "termsOfUseUrl": "https://www.salestim.com/legal/tos"
   },
   "templateConfiguration": {
-    "id": "io.salestim.automation.templates.dealRoom.en-us",
+    "id": "io.salestim.templates.deal-room.en-us",
     "language": "en-us",
     "enabled": "true",
     "version": "1.0",
     "name": "Deal Room",
-    "description": "A basic team comprised of one 'General' channel",
+    "description": "Manage your sales opportunities",
     "pictureUrl": "https://source.unsplash.com/random/80x80",
     "cardPicture": "https://source.unsplash.com/random/400x300",
     "screenshots": [
       "https://source.unsplash.com/random/800x600"
     ],
     "categories": [
-      "io.salestim.gallery.categories.productivity"
+      "crm",
+      "sales-support"
     ]
   },
   "initialization": {
     "structure": {
       "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
       "visibility": "Private",
-      "displayName": "TEMPLATE_NAME",
-      "description": "TEMPLATE_NAME",
-      "channels": [
-        {
-          
-        }
-      ]
-    },
-    "contents": {}
+      "displayName": "🔥 DEAL-ROOM-TEMPLATE",
+      "description": "DO NOT DELETE: Source team for the 'Deal Room' template.,
+      "channels": []
+    }
   }
 }
 ```
