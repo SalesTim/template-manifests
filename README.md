@@ -1,9 +1,16 @@
-[![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/){:target="_blank" rel="noopener"}
-![version](https://img.shields.io/badge/version-1.0.0-green?style=flat)
+[![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
+[![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
+[![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
+
+
+![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
+![GitHub last commit](https://img.shields.io/github/last-commit/salestim/template-manifests)
+![GitHub Release Date](https://img.shields.io/github/release-date/salestim/template-manifests)  
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/template-manifests)
 ![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
-<a href="https://www.linkedin.com/company/salestim/" target="_blank">![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)</a>
-<a href="https://twitter.com/intent/follow?screen_name=salestimcrm" target="_blank">![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)</a>
-<a href="https://store.salestim.com" target="_blank">![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)</a>
+
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
