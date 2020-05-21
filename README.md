@@ -1,16 +1,12 @@
 [![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
+![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
+![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/salestim/template-manifests)
+![GitHub Release Date](https://img.shields.io/github/release-date/salestim/template-manifests)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/template-manifests)
 [![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
 [![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
 [![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
-
-
-![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
-![GitHub last commit](https://img.shields.io/github/last-commit/salestim/template-manifests)
-![GitHub Release Date](https://img.shields.io/github/release-date/salestim/template-manifests)  
-
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/template-manifests)
-![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
-
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
@@ -71,11 +67,11 @@ git clone https://github.com/SalesTim/template-manifests.git
 1. Open your [SalesTim Template Catalog](https://app.salestim.io/forms?stEntityId=io.salestim.automation.catalog)
 2. Create a new template from an existing team (or create a new team for that purpose)
 3. Open the newly created template and click `Export...`
-3. Save your `*.json` file to the following folder `manifests / <publisher> / <template> / <version>.json`
+3. Save your `*.json` file to the following folder `manifests / <publisher> / <template>.json`
 
 **Option 2: Using an existing template**  
 
-Just copy an existing manifest and paste it in the following folder: `manifests / <publisher> / <template> / <version>.json`
+Just copy an existing manifest and paste it in the following folder: `manifests / <publisher> / <template>.json`
 
 ### 3. Test your Manifest
 
@@ -103,30 +99,25 @@ Full Intellisense, inline documentation and schema validation during manifest au
 
 With the manifest verified, you will need to submit a PR. 
 
-Your manifest should be located in the folder path matching:
+Your manifest must be located in the folder path matching:
 ```
 .
 ├── manifests
-│   └── <publisher>
-│       ├── <template>
-│       │   └── <version>.json
+│   └── <publisher>          # The name of the organization that publishes the template. For example: ***contoso***.
+│       ├── <template>.json  # The template name. For example: ***a-great-template.json***.
 ```
 
-The following rules must be respected:
-- Folders and files names must be lower-cased
-- Use only alphanumerics characters, with the exception of "`-`" to replace spaces.
--  `<publisher>` folder is the name of the organization that publishes the template. For example: ***SalesTim***.
--  The child folder `<template>` is the name of the template. For example: ***Crisis Management***.
--  The filename must be the current `<version>` following the [Semantic Versioning Specification (SemVer)](https://semver.org/), prefixed with the "`v`" character. For example: ***v1.0.0.json***.
 
-For example:
-```
-.
-├── manifests
-│   └── salestim
-│       ├── deal-room
-│       │   └── v1.0.0.json
-```
+**Naming conventions**
+- Avoid creating multiple publisher folders. For example, do not create "contoso-ltd." if there is already a "contonso" folder.
+- Folders and files names should be lower-cased
+- Supported characters:
+  - Folders and files should use alphanumerics characters only.
+  - As an exception, you can use "`-`" to replace spaces
+  - As an exception, you can use "`.`" for versions numbers or dot notation.
+- Versionning:
+  - You souldn't use version numbers in file names to avoid redundency as the manifest's version number is already included as a field in the json file
+  - As an exception, create multiple versions of the same template only if you want to keep these versions live at the same time on the store website.
 
 ### Validation Process
 
@@ -149,37 +140,36 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
   "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json",
   "manifestVersion": "1.0",
   "publisher": {
-    "name": "SalesTim",
-    "description": "Microsoft Teams Governance Automation Platform",
-    "id": "io.salestim",
-    "logo": "https://store.salestim.com/color.png",
-    "websiteUrl": "https://www.salestim.com",
-    "privacyUrl": "https://www.salestim.com/legal/privacy",
-    "termsOfUseUrl": "https://www.salestim.com/legal/tos"
+    "name": "Contoso Ltd",
+    "description": "Microsoft Teams templates creator",
+    "id": "com.contoso",
+    "logo": "https://www.contoso.com/logo.png",
+    "websiteUrl": "https://www.consoto.com",
+    "privacyUrl": "https://www.consoto.com/privacy",
+    "termsOfUseUrl": "https://www.consoto.com/tos"
   },
   "templateConfiguration": {
-    "id": "io.salestim.templates.deal-room.en-us",
+    "id": "com.contoso.a-great-template",
     "language": "en-us",
     "enabled": "true",
     "version": "1.0",
-    "name": "Deal Room",
-    "description": "Manage your sales opportunities",
+    "name": "A Great Template",
+    "description": "A fantastic template to do crazy stuffs",
     "pictureUrl": "https://source.unsplash.com/random/80x80",
     "cardPicture": "https://source.unsplash.com/random/400x300",
     "screenshots": [
       "https://source.unsplash.com/random/800x600"
     ],
     "categories": [
-      "crm",
-      "sales-support"
+      "productivity"
     ]
   },
   "initialization": {
     "structure": {
       "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
       "visibility": "Private",
-      "displayName": "🔥 DEAL-ROOM-TEMPLATE",
-      "description": "DO NOT DELETE: Source team for the 'Deal Room' template.,
+      "displayName": "🔥 GREAT-TEMPLATE",
+      "description": "DO NOT DELETE: Source team for the 'A Great Template'.,
       "channels": []
     }
   }
@@ -189,10 +179,14 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
 ### Best Practices
 
 - Each field in the file must be [camelCased](https://en.wikipedia.org/wiki/Camel_case) and cannot be duplicated.
-- The Id must be unique. You cannot have multiple submissions with the same Id.
-- Avoid creating multiple publisher folders. For example, do not create "Contoso Ltd." if there is already a "Contonso" folder.
+- As a publisher id, we recommend to use a [Reverse Domain Name Notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation) such as "`com.contoso`"
+- How to generate a unique template ID?
+  - Option 1: Generate manually a unique but descriptive template id by combining:
+    - Your publisher id
+    - The template name (lower-cased and without spaces)
+    - Example: `com.contoso.a-great-template`
+  - Do not use language or version number to avoid redundencies
 - Provide as many fields as possible. The more data you provide the better the user will find the template.
-- Length of strings in this spec should be limited to 100 characters before a line break.
 
 ### Compatibility with Microsoft Teams Standard Templates
 
