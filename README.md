@@ -41,7 +41,10 @@ If you want to integrate your contents or applications with the SalesTim Platfor
   - Minimal JSON File Example
   - Best Practices
   - Compatibility with Microsoft Teams Standard Templates
-- **[E. USEFUL LINKS](#e-useful-links)**
+- **[X. APPENDICES](#x-appendices)**
+  - COMMUNICATING WITH THE TEAM
+  - SECURITY POLICY
+  - CODE OF CONDUCT
 
 ## A. INTRODUCTION TO TEMPLATE MANIFESTS
 
@@ -203,6 +206,28 @@ The manifest section that defines the contents and apps to be provisionned durin
 }
 ```
 
-## E. USEFUL LINKS
-- [Report an issue](https://github.com/SalesTim/template-manifests/issues/new/choose)
-- [Security Policy](https://github.com/SalesTim/template-manifests/blob/master/SECURITY.md)
+## X. APPENDICES
+
+### COMMUNICATING WITH THE TEAM
+
+The easiest way to communicate with the team is via [GitHub Issues](https://github.com/SalesTim/template-manifests/issues/).
+
+Please [file new issues](https://github.com/SalesTim/template-manifests/issues/new/choose), feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
+
+If you would like to ask a question that you feel doesn't warrant an issue (yet), please reach out to us via Twitter:
+
+- Guillaume Meyer: [@guillaumemeyer](https://twitter.com/guillaumemeyer)
+- Alexandre Cipriani: [@alcip](https://twitter.com/alcip)
+
+### SECURITY POLICY
+
+This project has adopted the [SalesTim Security Policy](https://developers.salestim.com/platform/securitypolicy.html).
+
+### CODE OF CONDUCT
+
+This project has adopted the [SalesTim Open Source Code of Conduct](https://codeofconduct.salestim.com).
+
+Resources:
+- [SalesTim Open Source Code of Conduct](https://codeofconduct.salestim.com/)
+- [SalesTim Code of Conduct FAQ](https://codeofconduct.salestim.com/faq/)
+- Contact [codeofconduct@salestim.com](mailto:codeofconduct@salestim.com) with questions or concerns
