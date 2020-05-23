@@ -39,6 +39,11 @@
     "singleton": "false",
     "name": "Scrum Sprint",
     "description": "A sprint (also known as iteration or timebox) is the basic unit of development in Scrum. The sprint is a timeboxed effort; that is, the length is agreed and fixed in advance for each sprint and is normally between one week and one month, with two weeks being the most common.",
+    "slug": "scrum-sprint",
+    "tags": [
+      "agility",
+      "project"
+    ],
     "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
     "cardPicture": "https://source.unsplash.com/random/400x300",
     "screenshots": [

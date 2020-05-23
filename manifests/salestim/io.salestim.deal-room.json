@@ -39,6 +39,11 @@
     "singleton": "false",
     "name": "Deal Room",
     "description": "A basic team comprised of one 'General' channel",
+    "slug": "deal-room",
+    "tags": [
+      "crm",
+      "sales"
+    ],
     "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
     "cardPicture": "https://source.unsplash.com/random/400x300",
     "screenshots": [

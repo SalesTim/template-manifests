@@ -35,6 +35,11 @@
     "singleton": "false",
     "name": "Account Team",
     "description": "Account Team",
+    "slug": "account-team",
+    "tags": [
+      "crm",
+      "sales"
+    ],
     "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
     "cardPicture": "https://source.unsplash.com/random/400x300",
     "screenshots": [
