@@ -36,10 +36,7 @@
     "name": "Account Team",
     "description": "Account Team",
     "slug": "account-team",
-    "tags": [
-      "crm",
-      "sales"
-    ],
+    "tags": ["crm", "sales"],
     "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
     "cardPicture": "https://source.unsplash.com/random/400x300",
     "screenshots": [
@@ -47,7 +44,7 @@
       "https://source.unsplash.com/random/400x300",
       "https://source.unsplash.com/random/200x150"
     ],
-    "categories": ["io.salestim.gallery.categories.salesAndSupport"]
+    "categories": ["sales"]
   },
   "clonedTeam": {
     "teamId": "",
@@ -68,5 +65,9 @@
     "defaultWelcomeMessage": "Welcome to the account team!",
     "teamPrivacy": "private",
     "addRequesterAsTeamOwner": "true"
+  },
+  "initialization": {
+    "structure": {},
+    "contents": {}
   }
 }

@@ -47,7 +47,7 @@
       "https://source.unsplash.com/random/400x300",
       "https://source.unsplash.com/random/200x150"
     ],
-    "categories": ["io.salestim.gallery.categories.salesAndSupport"]
+    "categories": ["sales"]
   },
   "clonedTeam": {
     "teamId": "",
@@ -68,5 +68,9 @@
     "defaultWelcomeMessage": "Welcome to the opportunity team!",
     "teamPrivacy": "private",
     "addRequesterAsTeamOwner": "true"
+  },
+  "initialization": {
+    "structure": {},
+    "contents": {}
   }
 }
