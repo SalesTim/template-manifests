@@ -10,7 +10,7 @@
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
-# Welcome to the The Microsoft Teams® Template Manifests repo
+# Welcome to the the Microsoft Teams® Template Manifests repo
 
 ## ABSTRACT
 
@@ -103,11 +103,11 @@ Full Intellisense, inline documentation and schema validation during manifest au
 With the manifest verified, you will need to submit a PR. 
 
 Your manifest must be located in the folder path matching:
-```
+```sh
 .
 ├── manifests
-│   └── <publisher>          # The name of the organization that publishes the template. For example: ***contoso***.
-│       ├── <template>.json  # The template name. For example: ***a-great-template.json***.
+│   └── <publisher>          # The name of the organization that publishes the template. For example: "contoso".
+│       ├── <template>.json  # The template name. For example: "a-great-template.json".
 ```
 
 
