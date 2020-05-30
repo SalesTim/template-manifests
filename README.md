@@ -1,3 +1,4 @@
+![classification:PUBLIC](https://img.shields.io/badge/classification-PUBLIC-blue)
 [![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
 ![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
@@ -10,7 +11,7 @@
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
-# Welcome to the the Microsoft Teams® Template Manifests repo
+# Welcome to the Microsoft Teams® Template Manifests repo
 
 ## ABSTRACT
 
