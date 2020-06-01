@@ -7,7 +7,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/template-manifests)
 [![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
 [![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
-[![Template Store](https://img.shields.io/badge/dynamic/json?url=https://api.salestim.io/v1.0/store/templates&label=Template%20Store&query=$.body.length&color=darkslateblue&suffix=%20templates%20published&logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
+[![Template Store](https://img.shields.io/badge/dynamic/json?url=https://api.salestim.io/v1.0/store/templates&label=Template%20Store&query=$.body.length&color=darkslateblue&prefix=Discover%20&suffix=%20Free%20Templates!&logo=microsoft-teams&logoColor=white&style=flat)](https://store.salestim.com)
 
 *"SalesTim Template Manifests" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
@@ -26,6 +26,8 @@ A manifest is a simple file that describes the properties of a Microsoft Teams t
 To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
 
 If you want to integrate your contents or applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our ***[Tech Hub](https://developers.salestim.com/)***.
+
+---
 
 ## TABLE OF CONTENTS
 
@@ -46,6 +48,8 @@ If you want to integrate your contents or applications with the SalesTim Platfor
   - COMMUNICATING WITH THE TEAM
   - SECURITY POLICY
   - CODE OF CONDUCT
+
+---
 
 ## A. INTRODUCTION TO TEMPLATE MANIFESTS
 
@@ -211,24 +215,18 @@ The manifest section that defines the contents and apps to be provisionned durin
 
 ### COMMUNICATING WITH THE TEAM
 
-The easiest way to communicate with the team is via [GitHub Issues](https://github.com/SalesTim/template-manifests/issues/).
+The easiest way to communicate with the team is via [GitHub Issues](/issues).
 
-Please [file new issues](https://github.com/SalesTim/template-manifests/issues/new/choose), feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
-
-If you would like to ask a question that you feel doesn't warrant an issue (yet), please reach out to us via Twitter:
-
-- Guillaume Meyer: [@guillaumemeyer](https://twitter.com/guillaumemeyer)
-- Alexandre Cipriani: [@alcip](https://twitter.com/alcip)
+Please file new issues, feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
 
 ### SECURITY POLICY
 
-This project has adopted the [SalesTim Security Policy](https://developers.salestim.com/platform/securitypolicy.html).
+This project has adopted the [SalesTim Security Policy](./SECURITY.md).
 
 ### CODE OF CONDUCT
 
-This project has adopted the [SalesTim Open Source Code of Conduct](https://codeofconduct.salestim.com).
+This project has adopted the [SalesTim Open Source Code of Conduct](./CODE_OF_CONDUCT.md).
 
-Resources:
-- [SalesTim Open Source Code of Conduct](https://codeofconduct.salestim.com/)
-- [SalesTim Code of Conduct FAQ](https://codeofconduct.salestim.com/faq/)
-- Contact [codeofconduct@salestim.com](mailto:codeofconduct@salestim.com) with questions or concerns
+### LICENSING
+
+This project is licenseced described in the [LICENSE file](./LICENSE.md).
