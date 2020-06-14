@@ -191,9 +191,9 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
     "name": "A Great Template",
     "description": "A fantastic template to do crazy stuffs",
     "pictureUrl": "https://source.unsplash.com/random/80x80",
-    "cardPicture": "https://source.unsplash.com/random/400x300",
+    "cardPicture": "https://source.unsplash.com/random/800x450",
     "screenshots": [
-      "https://source.unsplash.com/random/800x600"
+      "https://source.unsplash.com/random/800x450"
     ],
     "categories": [
       "productivity"

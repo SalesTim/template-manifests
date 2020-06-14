@@ -5,7 +5,7 @@
     "name": "SalesTim",
     "description": "",
     "id": "io.salestim",
-    "logo": "https://store.salestim.com/color.png",
+    "logo": "https://manifests.salestim.io/assets/salestim/logo.png",
     "websiteUrl": "https://www.salestim.com",
     "privacyUrl": "https://www.salestim.com/legal/privacy",
     "termsOfUseUrl": "https://www.salestim.com/legal/tos"
@@ -40,20 +40,12 @@
     "name": "Scrum Sprint",
     "description": "A sprint (also known as iteration or timebox) is the basic unit of development in Scrum. The sprint is a timeboxed effort; that is, the length is agreed and fixed in advance for each sprint and is normally between one week and one month, with two weeks being the most common.",
     "slug": "scrum-sprint",
-    "tags": [
-      "agility",
-      "project"
-    ],
-    "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
-    "cardPicture": "https://source.unsplash.com/random/400x300",
-    "screenshots": [
-      "https://source.unsplash.com/random/800x600",
-      "https://source.unsplash.com/random/400x300",
-      "https://source.unsplash.com/random/200x150"
-    ],
-    "categories": [
-      "project-management"
-    ]
+    "tags": ["agility", "project"],
+    "pictureUrl": "https://manifests.salestim.io/assets/salestim/logo.png",
+    "cardPicture": "https://source.unsplash.com/random/800x450",
+    "socialPicture": "https://manifests.salestim.io/assets/salestim/scrum-sprint/st-scrum-sprint-social.png",
+    "screenshots": ["https://source.unsplash.com/random/800x450"],
+    "categories": ["project-management"]
   },
   "clonedTeam": {
     "teamId": "",

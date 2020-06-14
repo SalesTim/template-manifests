@@ -5,7 +5,7 @@
     "name": "SalesTim",
     "description": "",
     "id": "io.salestim",
-    "logo": "https://store.salestim.com/color.png",
+    "logo": "https://manifests.salestim.io/assets/salestim/logo.png",
     "websiteUrl": "https://www.salestim.com",
     "privacyUrl": "https://www.salestim.com/legal/privacy",
     "termsOfUseUrl": "https://www.salestim.com/legal/tos"
@@ -36,18 +36,12 @@
     "name": "Opportunity Team",
     "description": "Opportunity Team",
     "slug": "opportunity-team",
-    "tags": [
-      "crm",
-      "sales"
-    ],
-    "pictureUrl": "https://store.salestim.com/img/defaultTemplate.jpg",
-    "cardPicture": "https://source.unsplash.com/random/400x300",
-    "screenshots": [
-      "https://source.unsplash.com/random/800x600",
-      "https://source.unsplash.com/random/400x300",
-      "https://source.unsplash.com/random/200x150"
-    ],
-    "categories": ["sales"]
+    "tags": ["crm", "sales", "salesforce", "dynamics"],
+    "pictureUrl": "https://manifests.salestim.io/assets/salestim/logo.png",
+    "cardPicture": "https://source.unsplash.com/random/800x450",
+    "socialPicture": "https://source.unsplash.com/random/800x450",
+    "screenshots": ["https://source.unsplash.com/random/800x450"],
+    "categories": ["sales", "salesforce", "dynamics"]
   },
   "clonedTeam": {
     "teamId": "",
