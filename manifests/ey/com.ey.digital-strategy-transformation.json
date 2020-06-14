@@ -1,0 +1,133 @@
+{
+  "$schema": "https://dist.salestim.com/api/v1.0/json-schemas/io.salestim.automation.templates.schema.json",
+  "manifestVersion": "1.0",
+  "publisher": {
+    "name": "EY",
+    "description": "Building a better working world",
+    "id": "com.ey",
+    "logo": "https://store.salestim.com/color.png",
+    "websiteUrl": "https://www.ey.com",
+    "privacyUrl": "https://www.ey.com/en_gl/privacy-statement",
+    "termsOfUseUrl": "https://www.ey.com/en_gl/legal-and-privacy"
+  },
+  "templateConfiguration": {
+    "approval": {
+      "requireApproval": "false",
+      "approvalTeam": []
+    },
+    "adoption": {
+      "week1Subject": "",
+      "week1Message": "",
+      "week2Subject": "",
+      "week2Message": "",
+      "week3Subject": "",
+      "week3Message": ""
+    },
+    "permanentMembership": {
+      "owners": [],
+      "members": []
+    },
+    "audienceTargeting": {
+      "enabled": "true",
+      "rules": "!user.msPreferredLanguage.toLowerCase().includes('en')"
+    },
+    "id": "com.ey.digital-strategy-transformation.en-us",
+    "language": "en-us",
+    "enabled": "true",
+    "version": "1.0",
+    "system": "false",
+    "singleton": "false",
+    "name": "Digital Strategy and Transformation",
+    "description": "We help companies thrive in the transformative age by refreshing themselves constantly, experimenting with new ideas and scaling successes.",
+    "slug": "digital-strategy-transformation",
+    "tags": [
+      "digital strategy",
+      "digital transformation",
+      "digital",
+      "ey",
+      "Ernst & Young"
+    ],
+    "pictureUrl": "https://manifests.salestim.io/assets/ey/logo.png",
+    "cardPicture": "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation.png",
+    "screenshots": [
+      "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation.png"
+    ],
+    "categories": [
+      "project-management"
+    ]
+  },
+  "clonedTeam": {
+    "teamId": "",
+    "teamName": "",
+    "includeApps": "true",
+    "includeTabs": "true",
+    "includeSettings": "true",
+    "includeChannels": "true",
+    "includeMembers": "false"
+  },
+  "newTeam": {
+    "namingConvention": "<%= request.team.name %>-EY-Digital",
+    "emailConvention": "<%= request.team.name %>-EY",
+    "descriptionConvention": "Team created by <%= user.msDisplayName %>. Description: <%= request.team.description %>",
+    "welcomeMessageConvention": "<%= request.team.welcomeMessage %>",
+    "defaultName": "",
+    "defaultDescription": "",
+    "defaultWelcomeMessage": "",
+    "teamPrivacy": "private",
+    "addRequesterAsTeamOwner": "true"
+  },
+  "initialization": {
+    "structure": {
+      "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
+      "visibility": "Private",
+      "displayName": "EY-DIGITAL-STRATEGY-TRANSFORMATION-TEMPLATE",
+      "description": "We help companies thrive in the transformative age by refreshing themselves constantly, experimenting with new ideas and scaling successes.",
+      "slug": "digital-strategy-transformation",
+      "channels": [
+        {
+          "displayName": "🙋🏼‍♀️ About EY",
+          "isFavoriteByDefault": true,
+          "description": "Discover the EY Digital Strategy and Transformation Program",
+          "tabs": [
+            {
+              "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+              "name": "Our Offers",
+              "configuration": {
+                "contentUrl": "https://www.ey.com/en_gl/digital/transformation"
+              }
+            }
+          ]
+        }
+      ],
+      "memberSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true,
+        "allowAddRemoveApps": true,
+        "allowCreateUpdateRemoveTabs": true,
+        "allowCreateUpdateRemoveConnectors": true
+      },
+      "guestSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true
+      },
+      "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+      },
+      "messagingSettings": {
+        "allowUserEditMessages": true,
+        "allowUserDeleteMessages": true,
+        "allowOwnerDeleteMessages": true,
+        "allowTeamMentions": true,
+        "allowChannelMentions": true
+      },
+      "discoverySettings": {
+        "showInTeamsSearchAndSuggestions": false
+      },
+      "installedApps": []
+    },
+    "contents": {}
+  }
+}
