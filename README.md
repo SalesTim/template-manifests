@@ -101,7 +101,11 @@ Full Intellisense, inline documentation and schema validation during manifest au
 }
 ```
 
-### 4. Optimize for social media
+### 4. Optimize your assets
+
+socialPicture
+800x450
+
 
 **Twitter**
 
