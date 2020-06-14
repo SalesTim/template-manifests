@@ -5,7 +5,7 @@
     "name": "EY",
     "description": "Building a better working world",
     "id": "com.ey",
-    "logo": "https://store.salestim.com/color.png",
+    "logo": "https://manifests.salestim.io/assets/ey/logo.png",
     "websiteUrl": "https://www.ey.com",
     "privacyUrl": "https://www.ey.com/en_gl/privacy-statement",
     "termsOfUseUrl": "https://www.ey.com/en_gl/legal-and-privacy"
@@ -45,16 +45,16 @@
       "digital transformation",
       "digital",
       "ey",
-      "Ernst & Young"
+      "Ernst and Young"
     ],
     "pictureUrl": "https://manifests.salestim.io/assets/ey/logo.png",
-    "cardPicture": "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation.png",
+    "cardPicture": "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation-card.png",
+    "twitterPicture": "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation-social.png",
+    "linkedinPicture": "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation-social.png",
     "screenshots": [
-      "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation.png"
+      "https://manifests.salestim.io/assets/ey/ey-digital-strategy-transformation-slide-1.png"
     ],
-    "categories": [
-      "project-management"
-    ]
+    "categories": ["project-management"]
   },
   "clonedTeam": {
     "teamId": "",

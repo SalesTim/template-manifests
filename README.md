@@ -101,6 +101,33 @@ Full Intellisense, inline documentation and schema validation during manifest au
 }
 ```
 
+### 4. Optimize for social media
+
+**Twitter**
+
+Twitter users can attach photos to any of their Tweets. Luckily, Twitter updated to no longer count characters against your Tweet limit. Uploaded photos will appear in your followers’ streams and the streams of their followers (if Retweeted).
+
+It’s important to note that Twitter may collapse your photo into a smaller version to fit in a user’s stream. Make sure Twitter displays the portion of the photo you want followers to see by setting the width of your image to fit the minimum requirements. Also, horizontally center your content so the most important elements of the image are visible in the collapsed version.
+
+Image Guidelines:
+- Minimum to appear expanded 440 x 220 pixels (a 2:1 ratio)
+- Recommended aspect ratio is 16:9.
+- Maximum to appear expanded 1024 x 512 pixels.
+- Appears in stream collapsed at 506 x 253 pixels on desktop.
+- Maximum file size of 5 MB for photos, and 5 MB for animated GIFs on mobile and 15 MB on web.
+
+Find more information on in-stream photos at the [Twitter Help Center](https://support.twitter.com/articles/20156423-posting-photos-on-twitter).
+
+**LinkedIn**
+This size works for LinkedIn posts that share a photo or a link with image to a blog post or article.  If you’re only sharing a photo, you have a bit more room for the maximum size if you prefer.
+
+Image Guidelines:
+- Recommended size for images or links: 1104 x 736 pixels
+- Appears at 552 x 289 pixels
+- Maximum size for shared images only: 1104 x 736
+- Image types include: JPNG, JPG or GIF.
+- The image will appear slightly vertically cropped on mobile, following our recommended sizes here.
+
 ## C. PUBLISH YOUR TEMPLATE MANIFEST
 
 ### Submission process
