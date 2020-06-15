@@ -36,6 +36,7 @@ If you want to integrate your contents or applications with the SalesTim Platfor
   1. Get the Sources
   2. Create your Manifest
   3. Test your Manifest
+  4. Optimize your assets
 - **[C. PUBLISH YOUR TEMPLATE MANIFEST](#c-publish-your-template-manifest)**
   - Submission Process
   - Validation Process
@@ -103,34 +104,51 @@ Full Intellisense, inline documentation and schema validation during manifest au
 
 ### 4. Optimize your assets
 
-socialPicture
-800x450
+You can host your assets on your own server, or anywhere else, but it's recommended to keep them in this repository as they'll be served by GitHub itself.  
+All your assets must reside in your own publisher directory `/assets/your-name`, and they will be publicly accessible from `https://manifests.salestim.io/assets`. For instance, the SalesTim logo is accessible from [https://manifests.salestim.io/assets/salestim/logo.png](https://manifests.salestim.io/assets/salestim/logo.png).
 
+Here are the recommendations for each asset:
 
-**Twitter**
+`publisher.logo`
+- Usage: Used for every mention of the publisher. Could be used squared or fully rounded (border radius of 100%).
+- Ratio: 1:1
+- Size: 192×192
+- Format: PNG
+- File Name: `publisherLogo.png`
+- Location: `/assets/<publisher-name>`
 
-Twitter users can attach photos to any of their Tweets. Luckily, Twitter updated to no longer count characters against your Tweet limit. Uploaded photos will appear in your followers’ streams and the streams of their followers (if Retweeted).
+`templateConfiguration.pictureUrl`
+- Usage: The template logo. Could be used squared or fully rounded (border radius of 100%)
+- Ratio: 1:1
+- Size: 192×192
+- Format: PNG
+- File Name: `templateLogo.png`
+- Location: `/assets/<publisher-name>/<template-name>`
 
-It’s important to note that Twitter may collapse your photo into a smaller version to fit in a user’s stream. Make sure Twitter displays the portion of the photo you want followers to see by setting the width of your image to fit the minimum requirements. Also, horizontally center your content so the most important elements of the image are visible in the collapsed version.
+`templateConfiguration.cardPicture`
+- Usage: Used in categories and editor's pick pages. Recommendations: You can include the publisher logo as an overlay, but do NOT include text.
+- Ratio: 16:9
+- Size: Low: 800x450 | Medium: 1200x675 | Best: 1600x900
+- Format: PNG
+- File Name: `cardPicture.png`
+- Location: `/assets/<publisher-name>/<template-name>`
 
-Image Guidelines:
-- Minimum to appear expanded 440 x 220 pixels (a 2:1 ratio)
-- Recommended aspect ratio is 16:9.
-- Maximum to appear expanded 1024 x 512 pixels.
-- Appears in stream collapsed at 506 x 253 pixels on desktop.
-- Maximum file size of 5 MB for photos, and 5 MB for animated GIFs on mobile and 15 MB on web.
+`templateConfiguration.socialPicture`
+- Usage: Used when the template page is shared on social medias. Recommendation: Include the publisher logo and the template short url as an overlay.
+- Ratio: 16:9
+- Size: Low: 800x450 | Medium: 1200x675 | Best: 1600x900
+- Format: PNG
+- File Name: `socialPicture.png`
+- Location: `/assets/<publisher-name>/<template-name>`
 
-Find more information on in-stream photos at the [Twitter Help Center](https://support.twitter.com/articles/20156423-posting-photos-on-twitter).
+`templateConfiguration.screenshots`
+- Usage: Used as a slideshow on the top of the template page. Recommendation: You can use multiple animated gif files (that should be declared first in the list as the order is respected) and static png files. Please respect the naming convention even if you have only one picture.
+- Ratio: 16:9
+- Size: Low: 800x450 | Medium: 1200x675 | Best: 1600x900
+- Format: GIF or PNG
+- File Name: `screenshot-1.png`, `screenshot-2.png`, `screenshot-3.png`...
+- Location: `/assets/<publisher-name>/<template-name>`
 
-**LinkedIn**
-This size works for LinkedIn posts that share a photo or a link with image to a blog post or article.  If you’re only sharing a photo, you have a bit more room for the maximum size if you prefer.
-
-Image Guidelines:
-- Recommended size for images or links: 1104 x 736 pixels
-- Appears at 552 x 289 pixels
-- Maximum size for shared images only: 1104 x 736
-- Image types include: JPNG, JPG or GIF.
-- The image will appear slightly vertically cropped on mobile, following our recommended sizes here.
 
 ## C. PUBLISH YOUR TEMPLATE MANIFEST
 
@@ -196,6 +214,7 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
     "description": "A fantastic template to do crazy stuffs",
     "pictureUrl": "https://source.unsplash.com/random/80x80",
     "cardPicture": "https://source.unsplash.com/random/800x450",
+    "socialPicture": "https://source.unsplash.com/random/800x450",
     "screenshots": [
       "https://source.unsplash.com/random/800x450"
     ],
