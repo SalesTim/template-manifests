@@ -213,10 +213,10 @@ As specified in our [Template Manifests JSON Schema](https://dist.salestim.com/a
     "name": "A Great Template",
     "description": "A fantastic template to do crazy stuffs",
     "pictureUrl": "https://source.unsplash.com/random/80x80",
-    "cardPicture": "https://source.unsplash.com/random/800x450",
-    "socialPicture": "https://source.unsplash.com/random/800x450",
+    "cardPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
+    "socialPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
     "screenshots": [
-      "https://source.unsplash.com/random/800x450"
+      "https://store.salestim.com/img/Teams_800x450.jpg"
     ],
     "categories": [
       "productivity"

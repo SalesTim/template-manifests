@@ -38,10 +38,10 @@
     "slug": "account-team",
     "tags": ["crm", "sales", "salesforce", "dynamics"],
     "pictureUrl": "https://manifests.salestim.io/assets/salestim/logo.png",
-    "cardPicture": "https://source.unsplash.com/random/800x450",
-    "socialPicture": "https://source.unsplash.com/random/800x450",
+    "cardPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
+    "socialPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
     "screenshots": [
-      "https://source.unsplash.com/random/800x450"
+      "https://store.salestim.com/img/Teams_800x450.jpg"
     ],
     "categories": ["sales", "salesforce", "dynamics"]
   },

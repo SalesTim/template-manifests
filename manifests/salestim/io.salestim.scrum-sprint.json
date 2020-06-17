@@ -42,9 +42,12 @@
     "slug": "scrum-sprint",
     "tags": ["agility", "project"],
     "pictureUrl": "https://manifests.salestim.io/assets/salestim/logo.png",
-    "cardPicture": "https://source.unsplash.com/random/800x450",
+    "cardPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
     "socialPicture": "https://manifests.salestim.io/assets/salestim/scrum-sprint/st-scrum-sprint-social.png",
-    "screenshots": ["https://source.unsplash.com/random/800x450"],
+    "screenshots": [
+      "https://store.salestim.com/img/Teams_800x450.jpg",
+      "https://store.salestim.com/img/Teams_800x450.jpg"
+    ],
     "categories": ["project-management"]
   },
   "clonedTeam": {
