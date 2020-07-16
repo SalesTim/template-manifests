@@ -3,7 +3,7 @@
   "manifestVersion": "1.0",
   "publisher": {
     "name": "SalesTim",
-    "description": "",
+    "description": "SalesTim helps any organization to improve the collaboration process at scale.",
     "id": "io.salestim",
     "logo": "https://manifests.salestim.io/assets/salestim/logo.png",
     "websiteUrl": "https://www.salestim.com",

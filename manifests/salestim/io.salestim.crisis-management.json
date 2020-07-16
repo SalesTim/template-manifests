@@ -31,21 +31,21 @@
       "enabled": true,
       "rules": "!user.msPreferredLanguage.toLowerCase().includes('en')"
     },
-    "id": "io.salestim.deal-room",
+    "id": "io.salestim.crisis-management",
     "language": "en-us",
     "enabled": true,
     "version": "1.0.0",
     "system": false,
     "singleton": false,
-    "name": "Deal Room",
-    "description": "A basic team comprised of one 'General' channel",
-    "slug": "deal-room",
-    "tags": ["crm", "sales", "salesforce", "dynamics"],
+    "name": "Crisis Management",
+    "description": "A Microsoft Teams template for crisis management",
+    "slug": "crisis-management",
+    "tags": ["project", "crisis"],
     "pictureUrl": "https://manifests.salestim.io/assets/salestim/logo.png",
     "cardPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
     "socialPicture": "https://store.salestim.com/img/Teams_800x450.jpg",
     "screenshots": ["https://store.salestim.com/img/Teams_800x450.jpg"],
-    "categories": ["sales", "salesforce", "dynamics"]
+    "categories": ["project-management"]
   },
   "clonedTeam": {
     "teamId": "",
@@ -57,8 +57,8 @@
     "includeMembers": false
   },
   "newTeam": {
-    "namingConvention": "<%= request.team.name %> - Deal",
-    "emailConvention": "deal-<%= request.team.name %>",
+    "namingConvention": "<%= request.team.name %> - CRISIS",
+    "emailConvention": "crisis-<%= request.team.name %>-EN",
     "descriptionConvention": "Team created by <%= user.msDisplayName %>. Description: <%= request.team.description %>",
     "welcomeMessageConvention": "<%= request.team.welcomeMessage %>",
     "defaultName": "",
@@ -71,8 +71,8 @@
     "structure": {
       "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
       "visibility": "Private",
-      "displayName": "TIM-BASIC-EN-TEMPLATE",
-      "description": "Basic team template (EN)",
+      "displayName": "Crisis Management Template - DO NOT DELETE",
+      "description": "DO NOT DELETE: Source team for the 'Crisis Management' template.",
       "channels": [
         {
           "displayName": "🙋🏼‍♀️ Discover SalesTim",
