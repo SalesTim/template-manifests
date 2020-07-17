@@ -29,7 +29,7 @@
     },
     "audienceTargeting": {
       "enabled": true,
-      "rules": "!user.msPreferredLanguage.toLowerCase().includes('en')"
+      "rules": "!user.preferredLanguage.toLowerCase().includes('en')"
     },
     "id": "io.salestim.deal-room",
     "language": "en-us",
