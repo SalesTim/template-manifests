@@ -28,8 +28,8 @@
       "members": []
     },
     "audienceTargeting": {
-      "enabled": "true",
-      "rules": "!user.preferredLanguage.toLowerCase().includes('en')"
+      "enabled": "false",
+      "rules": ""
     },
     "id": "com.ey.digital-strategy-transformation.en-us",
     "language": "en-us",

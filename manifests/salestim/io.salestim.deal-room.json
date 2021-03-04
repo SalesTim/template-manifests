@@ -28,8 +28,8 @@
       "members": []
     },
     "audienceTargeting": {
-      "enabled": true,
-      "rules": "!user.preferredLanguage.toLowerCase().includes('en')"
+      "enabled": false,
+      "rules": ""
     },
     "id": "io.salestim.deal-room",
     "language": "en-us",
